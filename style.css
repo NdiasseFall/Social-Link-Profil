@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: « Inter », sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    color: #fff;
+}
+section {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 15px;
+    gap: 30px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+.profil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.profil img {
+    width: 100px;
+    border-radius: 80px;
+}
+.cart .profil .nth {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 15px;
+}
+.profil p:nth-last-child(1) {
+    font-size: 13px;
+}
+
+.reseau ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 15px;
+}
+.reseau li {
+    text-align: center;
+    padding: 10px 70px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+}
+.reseau li a {
+    color: #fff;
+}
+.reseau li:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
